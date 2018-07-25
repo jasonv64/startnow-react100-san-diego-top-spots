@@ -1,0 +1,12 @@
+.jumbotron {
+    text-align: center;
+    border: 3px solid salmon;
+    color: aqua
+}
+.well {
+    border:  3px solid salmon;
+}
+
+topSpot {
+    border: 2px solid black;
+}
