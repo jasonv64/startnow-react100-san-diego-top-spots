@@ -32,14 +32,16 @@ class App extends Component {
             <p id='title-p'>A list of the top 30 places to see in San Diego, California.</p>
           </div>
         </div>
-        <div className="output">
-        {this.state.topspots.map(topspot => (
-          <TopSpot
-            key={topspot.id}
-            name={topspot.name}
-            description={topspot.description}
-            location={topspot.location} />))}
-          </div>
+
+        <div className="card">
+          {this.state.topspots.map(topspot => (
+            <TopSpot
+              key={topspot.id}
+              name={topspot.name}
+              description={topspot.description}
+              location={topspot.location} />))}
+        </div>
+
       </div>
     );
   };

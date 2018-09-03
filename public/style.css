@@ -1,12 +1,31 @@
 .jumbotron {
     text-align: center;
-    border: 3px solid salmon;
-    color: aqua
+    border: 3px solid #1c292bd4;
+    margin-top: 2%; 
 }
 .well {
-    border:  3px solid salmon;
+    border:  3px solid #1c292bd4 !important;
+    padding: 0% 10% !important; 
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
-topSpot {
-    border: 2px solid black;
+body {
+    background-color: #b7f3e7;
+}
+
+h4 {
+    font-weight: bold !important; 
+}
+
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #1c292bd4;
+    margin-bottom: 1%; 
+}
+
+.button:hover {
+    background-color: #1c292bd4;
+    color: white;
 }
